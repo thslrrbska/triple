@@ -2,7 +2,7 @@ import React from "react";
 import StatisticsSection from "./components/sections/statistics/statistics_section";
 import styles from "./app.module.css";
 
-const app = (props) => {
+const App = (props) => {
   return (
     <>
       <div className={styles.wrapper}>
@@ -12,4 +12,4 @@ const app = (props) => {
   );
 };
 
-export default app;
+export default App;
