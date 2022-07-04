@@ -1,4 +1,5 @@
 import React from "react";
+import AwardList from "./award/award_list";
 import styles from "./statistics_section.module.css";
 
 const StatisticsSection = (props) => {
@@ -20,20 +21,7 @@ const StatisticsSection = (props) => {
               <strong>470만 개</strong>의 여행 일정
             </div>
           </div>
-          <div className={styles.award_container}>
-            <div className={styles.award_item}>
-              <img src="/images/play-store2x.png" alt="로고" />
-              <div>
-                <p>2018 구글 플레이스토어</p> <p>올해의 앱 최우수상 수상</p>
-              </div>
-            </div>
-            <div className={styles.award_item}>
-              <img src="/images/badge-apple4x.png" alt="로고" />
-              <div>
-                <p>2018 애플 앱스토어</p> <p>오늘의 여행앱 선정</p>
-              </div>
-            </div>
-          </div>
+          <AwardList />
         </div>
       </section>
     </>
