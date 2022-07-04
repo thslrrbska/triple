@@ -1,10 +1,13 @@
 import React from "react";
-import "./app.css";
+import StatisticsSection from "./components/sections/statistics/statistics_section";
+import styles from "./app.module.css";
 
 const app = (props) => {
   return (
     <>
-      <h1>Hello :)</h1>;
+      <div className={styles.wrapper}>
+        <StatisticsSection />
+      </div>
     </>
   );
 };
