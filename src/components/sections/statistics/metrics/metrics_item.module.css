@@ -1,6 +1,6 @@
 .item {
-  color: rgb(58, 58, 58);
-  font-family: sans-serif;
+  color: var(--basic-color);
+  font-family: var(--basic-font);
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }

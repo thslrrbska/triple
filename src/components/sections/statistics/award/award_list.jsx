@@ -1,6 +1,7 @@
 import React from "react";
 import AwardItem from "./award_item";
 import styles from "./award_list.module.css";
+import cx from "classnames";
 
 const AwardList = (props) => {
   const awards = [
@@ -15,7 +16,7 @@ const AwardList = (props) => {
   ];
   return (
     <>
-      <div className={styles.container}>
+      <div className={cx(styles.container, props.className)}>
         {awards.map((award, index) => (
           <AwardItem award={award} key={index} />
         ))}

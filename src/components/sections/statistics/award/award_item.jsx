@@ -5,7 +5,7 @@ const AwardItem = ({ award, award: { texts } }) => {
   return (
     <>
       <div className={styles.item}>
-        <img src={award.logoPath} alt="로고" />
+        <img className={styles.logo} src={award.logoPath} alt="로고" />
         <div>
           {texts.map((text, index) => (
             <p key={index}>{text}</p>

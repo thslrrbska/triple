@@ -1,4 +1,15 @@
 .item {
   display: flex;
+  align-items: center;
   height: 54px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: var(--basic-font);
+  color: var(--basic-color800);
+  margin-right: 40px;
+}
+
+.logo {
+  width: 54px;
+  margin-right: 7px;
 }
