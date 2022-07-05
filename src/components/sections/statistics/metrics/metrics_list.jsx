@@ -20,8 +20,8 @@ const MetricsList = (props) => {
   return (
     <>
       <div className={styles.container}>
-        {metricses.map((metrics) => (
-          <MetricsItem metrics={metrics} />
+        {metricses.map((metrics, index) => (
+          <MetricsItem metrics={metrics} key={index} />
         ))}
       </div>
     </>

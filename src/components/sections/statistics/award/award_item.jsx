@@ -7,8 +7,8 @@ const AwardItem = ({ award, award: { texts } }) => {
       <div className={styles.item}>
         <img src={award.logoPath} alt="로고" />
         <div>
-          {texts.map((text) => (
-            <p>{text}</p>
+          {texts.map((text, index) => (
+            <p key={index}>{text}</p>
           ))}
         </div>
       </div>
